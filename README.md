@@ -1,4 +1,4 @@
-# HTML Boilerplate - Minimal
+# HTML Boilerplate - Full Featured
 
 -   HTML template with full features files and structure
 -   Ideal for quickly starting a web-based project
