@@ -1,6 +1,6 @@
 # HTML Boilerplate - Full Featured
 
--   HTML template with full features files and structure
+-   HTML template with placeholder metatags and file structure
 -   Ideal for quickly starting a web-based project
 
 <br>
