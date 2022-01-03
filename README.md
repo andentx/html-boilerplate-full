@@ -83,7 +83,7 @@
             <!-- Set page info for Open Graph -->
             <meta property="og:title" content="Title of page" />
             <meta property="og:description" content="Description of page" />
-            <meta property="og:image" content="og-image.png" />
+            <meta property="og:image" content="https://example.com/images/og-image.png" />
             <meta property="og:image:alt" content="Description of Open Graph image" />
             <meta property="og:locale" content="en_US" />
             <meta property="og:type" content="website" />
@@ -99,21 +99,21 @@
 
             <!-- Set favicons - consider moving to root -->
             <link rel="shortcut icon" href="/icons/favicon.ico" />
-            <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
-            <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+            <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
+            <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" />
 
             <!-- Set icon for Apple Touch -->
             <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
 
             <!-- Set icon for Microsoft Application -->
             <meta name="msapplication-TileColor" content="#008877" />
-            <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+            <meta name="msapplication-config" content="icons/browserconfig.xml" />
 
             <!-- Set icon for Safari Pinned Tab -->
-            <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#008877" />
+            <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#008877" />
 
             <!-- Set icon for web app -->
-            <link rel="manifest" href="/icons/site.webmanifest" />
+            <link rel="manifest" href="icons/site.webmanifest" />
 
             <!-- Add canonical url to combine multiple related urls -->
             <link rel="canonical" href="https://www.mywebsite.com/page" />
