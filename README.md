@@ -204,7 +204,7 @@
         -   sets image for Open Graph objects - required
 
             ```html
-            <meta property="og:image" content="og-image.png" />
+            <meta property="og:image" content="https://example.com/images/og-image.png" />
             ```
 
         <br>
@@ -282,7 +282,7 @@
         -   sets shortcut to favicon if not hosted in root
 
             ```html
-            <link rel="shortcut icon" href="/icons/favicon.ico" />
+            <link rel="shortcut icon" href="icons/favicon.ico" />
             ```
 
         <br>
@@ -290,9 +290,9 @@
         -   sets paths to other icon sizes
 
             ```html
-            <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+            <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
 
-            <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+            <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" />
             ```
 
     <br>
@@ -312,7 +312,7 @@
             ```html
             <meta name="msapplication-TileColor" content="#008877" />
 
-            <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+            <meta name="msapplication-config" content="icons/browserconfig.xml" />
             ```
 
         <br>
@@ -320,7 +320,7 @@
         -   sets icon for Safari pinned tab
 
             ```html
-            <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#008877" />
+            <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#008877" />
             ```
 
         <br>
@@ -328,7 +328,7 @@
         -   sets icon for Android web app
 
             ```html
-            <link rel="manifest" href="/icons/site.webmanifest" />
+            <link rel="manifest" href="icons/site.webmanifest" />
             ```
 
     <br>
