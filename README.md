@@ -65,75 +65,77 @@
 
 -   Complete HTML Page
 
-        <!DOCTYPE html>
-        <html lang="en">
-            <head>
-                <!-- Set character encoding -->
-                <meta charset="UTF-8" />
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <!-- Set character encoding -->
+            <meta charset="UTF-8" />
 
-                <!-- Set viewport defaults -->
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <!-- Set viewport defaults -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-                <!-- Set page info -->
-                <title>Title of Page</title>
-                <meta name="description" content="Description of page" />
-                <meta name="author" content="Author Name" />
+            <!-- Set page info -->
+            <title>Title of Page</title>
+            <meta name="description" content="Description of page" />
+            <meta name="author" content="Author Name" />
 
-                <!-- Set page info for Open Graph -->
-                <meta property="og:title" content="Title of page" />
-                <meta property="og:description" content="Description of page" />
-                <meta property="og:image" content="og-image.png" />
-                <meta property="og:image:alt" content="Description of Open Graph image" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://www.example.com/page" />
+            <!-- Set page info for Open Graph -->
+            <meta property="og:title" content="Title of page" />
+            <meta property="og:description" content="Description of page" />
+            <meta property="og:image" content="og-image.png" />
+            <meta property="og:image:alt" content="Description of Open Graph image" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://www.example.com/page" />
 
-                <!-- Set page info for Twitter Cards -->
-                <meta name="twitter:card" content="summary" />
+            <!-- Set page info for Twitter Cards -->
+            <meta name="twitter:card" content="summary" />
 
-                <!-- Set theme colors -->
-                <meta name="theme-color" content="#008877" />
-                <meta name="theme-color" content="#007766" media="(prefers-color-scheme: dark)" />
-                <meta name="theme-color" content="#008877" media="(prefers-color-scheme: light)" />
+            <!-- Set theme colors -->
+            <meta name="theme-color" content="#008877" />
+            <meta name="theme-color" content="#007766" media="(prefers-color-scheme: dark)" />
+            <meta name="theme-color" content="#008877" media="(prefers-color-scheme: light)" />
 
-                <!-- Set favicons - consider moving to root -->
-                <link rel="shortcut icon" href="/icons/favicon.ico" />
-                <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
-                <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+            <!-- Set favicons - consider moving to root -->
+            <link rel="shortcut icon" href="/icons/favicon.ico" />
+            <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+            <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
 
-                <!-- Set icon for Apple Touch -->
-                <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+            <!-- Set icon for Apple Touch -->
+            <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
 
-                <!-- Set icon for Microsoft Application -->
-                <meta name="msapplication-TileColor" content="#008877" />
-                <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+            <!-- Set icon for Microsoft Application -->
+            <meta name="msapplication-TileColor" content="#008877" />
+            <meta name="msapplication-config" content="/icons/browserconfig.xml" />
 
-                <!-- Set icon for Safari Pinned Tab -->
-                <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#008877" />
+            <!-- Set icon for Safari Pinned Tab -->
+            <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#008877" />
 
-                <!-- Set icon for web app -->
-                <link rel="manifest" href="/icons/site.webmanifest" />
+            <!-- Set icon for web app -->
+            <link rel="manifest" href="/icons/site.webmanifest" />
 
-                <!-- Add canonical url to combine multiple related urls -->
-                <link rel="canonical" href="https://www.mywebsite.com/page" />
+            <!-- Add canonical url to combine multiple related urls -->
+            <link rel="canonical" href="https://www.mywebsite.com/page" />
 
-                <!-- Link to CSS stylesheets -->
-                <link rel="stylesheet" href="css/reset-minimal.css" />
-                <link rel="stylesheet" href="css/font.css" />
-                <link rel="stylesheet" href="css/style.css" />
-                <link rel="stylesheet" href="css/print.css" media="print" />
+            <!-- Link to CSS stylesheets -->
+            <link rel="stylesheet" href="css/reset-minimal.css" />
+            <link rel="stylesheet" href="css/font.css" />
+            <link rel="stylesheet" href="css/style.css" />
+            <link rel="stylesheet" href="css/print.css" media="print" />
 
-                <!-- Add google font -->
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" />
-            </head>
-            <body>
-                <h1>HTML Boilerplate - Full Featured</h1>
+            <!-- Add google font -->
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" />
+        </head>
+        <body>
+            <h1>HTML Boilerplate - Full Featured</h1>
 
-                <script src="js/scripts.js"></script>
-            </body>
-        </html>
+            <script src="js/scripts.js"></script>
+        </body>
+    </html>
+    ```
 
       <br>
 
@@ -141,13 +143,17 @@
 
     -   Set character encoding - required for consistent special characters
 
-              <meta charset="UTF-8" />
+        ```html
+        <meta charset="UTF-8" />
+        ```
 
     <br>
 
     -   Set viewport defaults - sets the viewport to the width of the screen, and sets the default zoom
 
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        ```html
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        ```
 
     <br>
 
@@ -155,19 +161,25 @@
 
         -   sets title displayed in browser tab, bookmark, search results... etc.
 
-                <title>Title of Page</title>
+            ```html
+            <title>Title of Page</title>
+            ```
 
         <br>
 
         -   sets page description displayed in search results... etc.
 
-                <meta name="description" content="Description of page" />
+            ```html
+            <meta name="description" content="Description of page" />
+            ```
 
         <br>
 
         -   sets author displayed in search results... etc.
 
-                <meta name="author" content="Author Name" />
+            ```html
+            <meta name="author" content="Author Name" />
+            ```
 
     <br>
 
@@ -175,43 +187,57 @@
 
         -   sets title for Open Graph objects - required
 
-                <meta property="og:title" content="Title of page" />
+            ```html
+            <meta property="og:title" content="Title of page" />
+            ```
 
         <br>
 
         -   sets description for Open Graph objects
 
-                <meta property="og:description" content="Description of page" />
+            ```html
+            <meta property="og:description" content="Description of page" />
+            ```
 
         <br>
 
         -   sets image for Open Graph objects - required
 
-                <meta property="og:image" content="og-image.png" />
+            ```html
+            <meta property="og:image" content="og-image.png" />
+            ```
 
         <br>
 
         -   sets image alt text for Open Graph objects
 
-                <meta property="og:image:alt" content="Description of Open Graph image" />
+            ```html
+            <meta property="og:image:alt" content="Description of Open Graph image" />
+            ```
 
         <br>
 
         -   sets native location for Open Graph objects
 
-                <meta property="og:locale" content="en_US" />
+            ```html
+            <meta property="og:locale" content="en_US" />
+            ```
 
         <br>
 
         -   sets type for Open Graph objects - required
 
-                <meta property="og:type" content="website" />
+            ```html
+            <meta property="og:type" content="website" />
+            ```
 
         <br>
 
         -   sets url for Open Graph objects - required
 
-                <meta property="og:url" content="https://www.example.com/page" />
+            ```html
+            <meta property="og:url" content="https://www.example.com/page" />
+            ```
 
     <br>
 
@@ -219,7 +245,9 @@
 
         -   sets layout for Twitter card - choose `summary` or `summary_large_image`
 
-                <meta name="twitter:card" content="summary" />
+            ```html
+            <meta name="twitter:card" content="summary" />
+            ```
 
     <br>
 
@@ -227,19 +255,25 @@
 
         -   sets theme color
 
-                <meta name="theme-color" content="#008877" />
+            ```html
+            <meta name="theme-color" content="#008877" />
+            ```
 
         <br>
 
         -   sets theme color for dark mode
 
-                <meta name="theme-color" content="#007766" media="(prefers-color-scheme: dark)" />
+            ```html
+            <meta name="theme-color" content="#007766" media="(prefers-color-scheme: dark)" />
+            ```
 
         <br>
 
         -   sets theme color for light mode
 
-                <meta name="theme-color" content="#008877" media="(prefers-color-scheme: light)" />
+            ```html
+            <meta name="theme-color" content="#008877" media="(prefers-color-scheme: light)" />
+            ```
 
     <br>
 
@@ -247,15 +281,19 @@
 
         -   sets shortcut to favicon if not hosted in root
 
-                <link rel="shortcut icon" href="/icons/favicon.ico" />
+            ```html
+            <link rel="shortcut icon" href="/icons/favicon.ico" />
+            ```
 
         <br>
 
         -   sets paths to other icon sizes
 
-                <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+            ```html
+            <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
 
-                <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+            <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+            ```
 
     <br>
 
@@ -263,33 +301,43 @@
 
         -   sets icon for apple touch
 
-                <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+            ```html
+            <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+            ```
 
         <br>
 
         -   sets icon and background color for Microsoft App tile
 
-                <meta name="msapplication-TileColor" content="#008877" />
+            ```html
+            <meta name="msapplication-TileColor" content="#008877" />
 
-                <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+            <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+            ```
 
         <br>
 
         -   sets icon for Safari pinned tab
 
-                <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#008877" />
+            ```html
+            <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#008877" />
+            ```
 
         <br>
 
         -   sets icon for Android web app
 
-                <link rel="manifest" href="/icons/site.webmanifest" />
+            ```html
+            <link rel="manifest" href="/icons/site.webmanifest" />
+            ```
 
     <br>
 
     -   Set canonical URL to combine multiple related URls
 
-            <link rel="canonical" href="https://www.mywebsite.com/page" />
+        ```html
+        <link rel="canonical" href="https://www.mywebsite.com/page" />
+        ```
 
     <br>
 
@@ -297,25 +345,33 @@
 
         -   CSS reset file
 
-                <link rel="stylesheet" href="css/reset-minimal.css" />
+            ```html
+            <link rel="stylesheet" href="css/reset-minimal.css" />
+            ```
 
         <br>
 
         -   CSS font file
 
-                <link rel="stylesheet" href="css/font.css" />
+            ```html
+            <link rel="stylesheet" href="css/font.css" />
+            ```
 
         <br>
 
         -   CSS stylesheet for page
 
-                <link rel="stylesheet" href="css/style.css" />
+            ```html
+            <link rel="stylesheet" href="css/style.css" />
+            ```
 
         <br>
 
         -   CSS stylesheet for print
 
-                <link rel="stylesheet" href="css/print.css" media="print" />
+            ```html
+            <link rel="stylesheet" href="css/print.css" media="print" />
+            ```
 
         <br>
 
@@ -323,11 +379,16 @@
 
         -   Preconnect to Google API and Google Fonts
 
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            ```html
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            ```
 
         <br>
 
         -   Add font with `display=swap` for optimal fallback performance
 
-                  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" />
+            ```html
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" />
+            ```
