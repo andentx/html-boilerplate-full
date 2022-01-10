@@ -1,5 +1,13 @@
 html,
 body,
+header,
+main,
+menu,
+nav,
+footer,
+section,
+article,
+pre,
 div,
 h1,
 h2,
@@ -10,11 +18,13 @@ h6,
 p,
 ol,
 ul,
-li {
-    border-style: none;
+li,
+a {
     box-sizing: border-box;
-    font-style: normal;
-    list-style: none;
     margin: 0;
     padding: 0;
+    border-style: none;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
 }
