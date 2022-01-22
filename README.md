@@ -41,6 +41,7 @@
           .
           ├── index.html
           ├── css
+          │   ├── color.css
           │   ├── font.css
           │   ├── print.css
           │   ├── reset.css
